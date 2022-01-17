@@ -56,7 +56,6 @@ class Logger {
         console.log(`%cLOG :%c ${text}`, this.styles.log.join('; '), '')
     }
     info = (text) => {
-        // console.clear()
         console.log(`%cINFO :%c ${text}`, this.styles.info.join('; '), '')
     }
     success = (text) => {
